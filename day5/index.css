@@ -1,0 +1,129 @@
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.q1-mother{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.q1-child{
+    display: flex;
+    margin-right: 5px;
+}
+
+.q2-mother{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.q2-child{
+    display: flex;
+    margin-right: 5px;
+}
+
+.q2-start{
+    align-self: flex-start;
+}
+
+.q2-end{
+    align-self: flex-end;
+}
+
+p{
+    margin-bottom: 25px;
+}
+
+.q3-mother{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.q3-box1{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color:white;
+    position:relative;
+}
+
+.q3-box2{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    color:white;
+    position:absolute;
+    margin-top: 50px;
+}
+
+.q4-mother{
+    border: 1px solid red;
+    display: flex;
+    height:150px;
+}
+
+.q4-box1{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color:white;
+}
+
+.q4-box2{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    color:white;
+    position:relative;
+    left:-50px;
+    top:50px;
+}
+
+.q5-mother{
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.q5-box1{
+    width: 700px;
+    height: 350px;
+    background-color: black;
+    color:white;
+}
+
+.q5-box2{
+    width: 200px;
+    height: 250px;
+    background-color: grey;
+    color:white;
+    position: absolute;
+    left:1325px;
+    align-self: flex-end;
+}
+
+.q5-box3{
+    width: 200px;
+    height: 250px;
+    background-color: grey;
+    color:white;
+    position: absolute;
+}
